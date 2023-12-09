@@ -1,0 +1,95 @@
+.home-counsel--card {
+  background-color: #e9ebf7;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 635px;
+  transition: 0.3s all ease-in-out;
+}
+.home-counsel--background {
+  background: aliceblue;
+}
+.home-counsel--card:hover {
+  background-color: #fff;
+  box-shadow: 0px 25px 38px 0px rgba(43, 1, 68, 0.17);
+  color: orange;
+  cursor: pointer;
+  background-position: 50% 50%;
+  transform: translateY(-10px);
+}
+
+.home-feel--card {
+  border: none;
+}
+.home-feel--card .carousel-indicators {
+  display: none;
+}
+
+.home-feel--card img {
+  max-height: 500px;
+}
+
+.home-feel--image {
+  max-width: 200px !important;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+/* .carousel-inner {
+  height: 100%;
+} */
+
+.home-fell--carousel-caption__custom {
+  bottom: auto;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border: solid 1px orange !important;
+  border-radius: 50%;
+  margin-top: -30px;
+}
+
+.home-service--bg {
+  background: pink;
+}
+
+.home-service--custom__image {
+  border-radius: 20px;
+}
+
+/*---*/
+.owl-theme .owl-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 40%;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  background: none;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none !important;
+  color: pink;
+}
+.home-reasom--bg {
+  background: #f9efed;
+  padding-bottom: 55px;
+}
+.home-reason--card {
+  border-bottom: 3px solid #ff9800;
+  border-top: 3px solid #ff5722;
+  border-radius: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 30px 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  text-align: center;
+}

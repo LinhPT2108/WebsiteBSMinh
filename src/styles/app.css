@@ -1,0 +1,14 @@
+.nav-menu {
+  text-decoration: none;
+  color: var(--bs-nav-link-color);
+}
+.list-group--custom {
+  border: none;
+}
+
+.footer-bg--custom {
+  background: rgb(50, 60, 60);
+}
+.about-image--custom {
+  border-radius: 40px 10px;
+}
