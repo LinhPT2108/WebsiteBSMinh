@@ -1,4 +1,4 @@
-import AppHomeComponent from "@/Component/home/app.home";
+import AppHomeComponent from "@/components/home/app.home";
 
 export default function Home() {
   return (

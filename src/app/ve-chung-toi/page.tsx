@@ -1,10 +1,12 @@
-import AboutBannerComponent from "@/Component/about/about.banner";
+import AboutBannerComponent from "@/components/about/about.banner";
+import AboutContentComponent from "@/components/about/about.content";
 
 const AppAboutComponent = () => {
   return (
-    <div>
+    <>
       <AboutBannerComponent />
-    </div>
+      <AboutContentComponent />
+    </>
   );
 };
 

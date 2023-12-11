@@ -4,7 +4,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 const HomeServiceComponent = () => {
   return (
-    <div className="home-service--bg">
+    <div className="home-service--bg pb-5">
       <Container>
         <h2 className="title-Counsel pt-4 text-center">
           Dịch vụ của chúng tôi
