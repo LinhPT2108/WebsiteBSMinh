@@ -14,7 +14,7 @@ const AppHomeComponent = () => {
   return (
     <>
       <HomeBannerComponent />
-      <Container className="my-5">
+      <Container>
         <HomeAboutComponent />
       </Container>
       <HomeCounselComponent />

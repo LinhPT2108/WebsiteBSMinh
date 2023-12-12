@@ -1,7 +1,6 @@
 "use client";
 
 import { Col, Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const HomeCounselComponent = () => {
@@ -9,13 +8,13 @@ const HomeCounselComponent = () => {
     <div className="home-counsel--background pb-5">
       <Container>
         <h2 className="title-Counsel pt-4 text-center">Chuyên Khoa</h2>
-        <Row className="mt-4">
-          <Col lg={4} md={4}>
+        <Row>
+          <Col lg={4} md={4} className="mt-4">
             <Card className="home-counsel--card">
               <Card.Img
                 variant="top"
                 src="/home/home-counsel/dich-vu-sieu-am.png"
-                className="p-5"
+                className="p-3"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">SIÊU ÂM</Card.Title>
@@ -27,12 +26,12 @@ const HomeCounselComponent = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={4} md={4}>
+          <Col lg={4} md={4} className="mt-4">
             <Card className="home-counsel--card">
               <Card.Img
                 variant="top"
                 src="/home/home-counsel/san-khoa.png"
-                className="p-5"
+                className="p-3"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">SẢN KHOA</Card.Title>
@@ -44,12 +43,12 @@ const HomeCounselComponent = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col lg={4} md={4}>
+          <Col lg={4} md={4} className="mt-4">
             <Card className="home-counsel--card">
               <Card.Img
                 variant="top"
                 src="/home/home-counsel/phu-khoa.png"
-                className="p-5"
+                className="p-3"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">PHỤ KHOA</Card.Title>

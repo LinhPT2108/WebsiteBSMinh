@@ -1,9 +1,25 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Card, Col, Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
+import { Card, Container } from "react-bootstrap";
+
+const options = {
+  responsive: {
+    1024: {
+      items: 4,
+    },
+    768: {
+      items: 3,
+    },
+    480: {
+      items: 2,
+    },
+    280: {
+      items: 1,
+    },
+  },
+};
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
 const HomeSpecialtyComponent = () => {
@@ -25,6 +41,7 @@ const HomeSpecialtyComponent = () => {
             '<i class="bi bi-arrow-right-circle-fill" style="font-size: 40px;"></i>',
           ]}
           margin={20}
+          {...options}
         >
           <div className="item">
             <Card>

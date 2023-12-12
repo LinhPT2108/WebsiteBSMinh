@@ -1,9 +1,11 @@
+* {
+  scroll-behavior: smooth;
+}
 .home-counsel--card {
   background-color: #e9ebf7;
   border: none;
   border-radius: 20px;
   width: 100%;
-  min-height: 635px;
   transition: 0.3s all ease-in-out;
 }
 .home-counsel--background {
@@ -72,6 +74,7 @@
 .owl-nav .owl-prev,
 .owl-nav .owl-next {
   background: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
@@ -92,4 +95,12 @@
   border-radius: 20px;
   overflow: hidden;
   text-align: center;
+}
+
+/*------------------*/
+
+@media screen and (max-width: 767px) {
+  .home-banner--image {
+    height: 240px !important;
+  }
 }
