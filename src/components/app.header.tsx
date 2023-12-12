@@ -30,7 +30,7 @@ function HeaderComponent() {
                 </Link>
               </Nav.Link>
               <NavDropdown title="CHUYÊN KHOA" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item href="/phu-khoa">
                   CHUYÊN KHOA
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
