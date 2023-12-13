@@ -78,7 +78,7 @@ const AsideComponent = () => {
                   className="plain text-decoration-none"
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
-                    <div className="box-image">
+                    <div className="box-image--aside">
                       <div className="image-cover" p-56>
                         <Image
                           width="600"
@@ -112,7 +112,7 @@ const AsideComponent = () => {
                   className="plain text-decoration-none"
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
-                    <div className="box-image">
+                    <div className="box-image--aside">
                       <div className="image-cover" p-56>
                         <Image
                           width="600"
@@ -146,7 +146,7 @@ const AsideComponent = () => {
                   className="plain text-decoration-none"
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
-                    <div className="box-image">
+                    <div className="box-image--aside">
                       <div className="image-cover" p-56>
                         <Image
                           width="600"
@@ -180,7 +180,7 @@ const AsideComponent = () => {
                   className="plain text-decoration-none"
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
-                    <div className="box-image">
+                    <div className="box-image--aside">
                       <div className="image-cover" p-56>
                         <Image
                           width="600"
