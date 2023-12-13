@@ -8,6 +8,7 @@ import {
   Pagination,
   Row,
 } from "react-bootstrap";
+import AsideComponent from "./app.aside";
 
 interface IPros {
   blogs: IBlog[];
@@ -70,7 +71,7 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
             })}
           </Col>
           <Col lg={3} md={12}>
-            123123
+            <AsideComponent />
           </Col>
         </Row>
       </Container>
