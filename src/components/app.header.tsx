@@ -30,11 +30,7 @@ function HeaderComponent() {
                   VỀ CHÚNG TÔI
                 </Link>
               </Nav.Link>
-              <NavDropdown
-                title="CHUYÊN KHOA"
-                id="basic-nav-dropdown"
-                className="header-dropdown--custom"
-              >
+              <NavDropdown title="CHUYÊN KHOA" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/phu-khoa">PHỤ KHOA</NavDropdown.Item>
                 <NavDropdown.Item href="/san-khoa">SẢN KHOA</NavDropdown.Item>
                 <NavDropdown.Item href="/sieu-am">SIÊU ÂM</NavDropdown.Item>
@@ -43,11 +39,7 @@ function HeaderComponent() {
                   XÉT NGHIỆM
                 </NavDropdown.Item>
               </NavDropdown>
-              <NavDropdown
-                title="TƯ VẤN"
-                id="basic-nav-dropdown"
-                className="header-dropdown--custom"
-              >
+              <NavDropdown title="TƯ VẤN" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/vo-sinh">VÔ SINH</NavDropdown.Item>
                 <NavDropdown.Item href="/chich-ngua">
                   CHÍCH NGỪA

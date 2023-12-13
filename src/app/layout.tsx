@@ -15,7 +15,6 @@ import "@/styles/aside.css";
 import "@/styles/news.css";
 import "@/styles/socialmedia.css";
 import "@/styles/specialty-counsel.css";
-import "@/styles/searchBar.css";
 import SocialmediaComponent from "@/components/socialmedia/socialmedia.lienhe";
 
 const inter = Inter({ subsets: ["latin"] });
