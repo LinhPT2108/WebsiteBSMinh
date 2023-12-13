@@ -11,8 +11,10 @@ import "@/styles/app.css";
 import "@/styles/home.css";
 import "@/styles/about.css";
 import "@/styles/contact.css";
-import "@/styles/aside.css";
+// import "@/styles/aside.css";
 import "@/styles/news.css";
+import "@/styles/socialmedia.css";
+import SocialmediaComponent from "@/components/socialmedia/socialmedia.lienhe";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +34,7 @@ export default function RootLayout({
         <HeaderComponent />
         {children}
         <AppFooter />
+        <SocialmediaComponent />
       </body>
     </html>
   );
