@@ -41,9 +41,17 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                 <Breadcrumb.Item href="/sieu-am" active>
                   Siêu âm
                 </Breadcrumb.Item>
-              ) : (
-                ""
-              )}
+              ) : path?.childSpecialty === "infertility" ? (
+                <Breadcrumb.Item href="/vo-sinh" active>
+                  Vô sinh
+                </Breadcrumb.Item>
+              )
+              : path?.childSpecialty === "immunizations" ? (
+                <Breadcrumb.Item href="/chich-ngua" active>
+                 TƯ VẤN , TẦM SOÁT ,CHÍCH NGỪA UNG THƯ CỔ TỬ CUNG (HPV)
+                </Breadcrumb.Item>
+              ):" "
+            }
             </Breadcrumb>
             {blogs?.map((blog, index) => {
               return (
@@ -51,8 +59,11 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                   <Col lg={5} md={5} xs={12}>
                     <Card className="border-0">
                       <Card.Img
+                        width={200}
+                        height={180}
                         variant="top"
                         src={`/specialty-counsel/${blog.image}`}
+                        className="specialty-counsel--image"
                       />
                     </Card>
                   </Col>

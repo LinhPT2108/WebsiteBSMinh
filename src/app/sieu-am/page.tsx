@@ -1,21 +1,21 @@
 "use client";
 import AppSpecialtyCounselComponent from "@/components/specialty-counsel/app.special-counsel";
 import GetMethodSpecialtyCounsel from "../api/api.get";
-const AppObstetricsComponent = () => {
+const AppUltrasoundComponent = () => {
   const { data, error, isLoading } = GetMethodSpecialtyCounsel("specialty");
 
   const path = {
     specialty: "specialty",
-    childSpecialty: "obstetrics",
+    childSpecialty: "ultrasound",
   };
   if (!data) {
     return <div>Loading...</div>;
   }
   return (
     <div>
-      <AppSpecialtyCounselComponent blogs={data?.obstetrics} path={path} />
+      <AppSpecialtyCounselComponent blogs={data?.ultrasound} path={path} />
     </div>
   );
 };
 
-export default AppObstetricsComponent;
+export default AppUltrasoundComponent;
