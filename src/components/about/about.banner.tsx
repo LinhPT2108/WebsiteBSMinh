@@ -9,18 +9,21 @@ const AboutBannerComponent = () => {
       <div className="banner-bg">
         <Container className="about-banner--content">
           <Row>
-            <Col lg={6} md={6} xs={6}></Col>
+            <Col lg={5} md={4} xs={4}></Col>
             <Col
-              lg={6}
-              md={6}
-              xs={6}
+              lg={7}
+              md={8}
+              xs={8}
               className="bg-loaded d-flex align-items-lg-end align-items-md-start"
             >
               <div className="about-banner--contact">
-                <div className="text-center">
-                  <h6 className="fs-6 fw-bold about-banner--title mt-4">
+                <div
+                  className="text-center text-box banner-layer x95 md-x95 lg-x95 y50 md-y50 lg-y50 res-text w-100"
+                  id="text-box-1609997032"
+                >
+                  <div className="fs-6 fw-bold about-banner--title mt-4">
                     PHÒNG KHÁM PHỤ KHOA – BÁC SỸ PHẠM THỊ NGỌC ĐIỆP
-                  </h6>
+                  </div>
                   <p>
                     Qua nhiều năm công tác bác sĩ Phạm Thị Ngọc điệp trên mỗi vị
                     trí của mình đều đạt được những thành công đáng kể, là nơi

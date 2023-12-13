@@ -1,12 +1,17 @@
-import SpecialistBreadcumpComponent from "@/components/specialist/specialist.breadcump";
+"use client";
+import AppSpecialtyCounselComponent from "@/components/specialty-counsel/app.special-counsel";
+import GetMethodSpecialtyCounsel from "../api/api.get";
+const AppGynecologyComponent = () => {
+  const { data, error, isLoading } = GetMethodSpecialtyCounsel("specialty");
 
-const AppGynecologicalComponent = () => {
+  if (!data) {
+    return <div>Loading...</div>;
+  }
   return (
-    <>
-      <h1>hello</h1>
-      <SpecialistBreadcumpComponent />
-    </>
+    <div>
+      <AppSpecialtyCounselComponent blogs={data?.gynecology} />
+    </div>
   );
 };
 
-export default AppGynecologicalComponent;
+export default AppGynecologyComponent;

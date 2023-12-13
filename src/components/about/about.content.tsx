@@ -5,7 +5,7 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 
 const AboutContentComponent = () => {
   return (
-    <Container className="my-5">
+    <Container className="my-5 space-top--custom">
       <Row>
         <Col lg={6} md={6} className="mb-5">
           <Card>

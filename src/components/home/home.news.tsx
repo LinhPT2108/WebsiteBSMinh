@@ -1,9 +1,25 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { Card, Col, Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-const OwlCarousel = dynamic(() => import("@ntegral/react-owl-carousel"), {
+import { Card, Container, Form } from "react-bootstrap";
+
+const options = {
+  responsive: {
+    1024: {
+      items: 4,
+    },
+    768: {
+      items: 3,
+    },
+    480: {
+      items: 2,
+    },
+    280: {
+      items: 1,
+    },
+  },
+};
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
 });
 const HomeNewsComponent = () => {
@@ -14,17 +30,18 @@ const HomeNewsComponent = () => {
         <OwlCarousel
           className="owl-theme mt-3"
           loop={true}
-          items={4}
-          responsiveRefreshRate={0}
-          autoplay={true}
-          autoplayTimeout={2000}
-          autoplayHoverPause={true}
-          nav={true}
           navText={[
             '<i class="bi bi-arrow-left-circle-fill" style="font-size: 40px;"></i>',
             '<i class="bi bi-arrow-right-circle-fill" style="font-size: 40px;"></i>',
           ]}
+          items={4}
+          nav={true}
+          dots={true}
+          autoplay={true}
+          autoplayTimeout={2000}
+          autoplayHoverPause={true}
           margin={20}
+          {...options}
         >
           <div className="item">
             <Card>

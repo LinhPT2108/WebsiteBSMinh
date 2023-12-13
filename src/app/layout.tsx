@@ -10,6 +10,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "@/styles/app.css";
 import "@/styles/home.css";
 import "@/styles/about.css";
+import "@/styles/contact.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -10,7 +10,7 @@ const HomeServiceComponent = () => {
           Dịch vụ của chúng tôi
         </h2>
         <Row className="mt-4">
-          <Col lg={6} md={6} className="mt-3">
+          <Col lg={6} md={6} sm={6} xs={12} className="mt-3">
             <Card className="home-service--custom__image">
               <Card.Img
                 variant="top"
@@ -19,7 +19,7 @@ const HomeServiceComponent = () => {
               />
             </Card>
           </Col>
-          <Col lg={6} md={6} className="mt-3">
+          <Col lg={6} md={6} sm={6} xs={12} className="mt-3">
             <Card className="home-service--custom__image">
               <Card.Img
                 variant="top"
@@ -28,7 +28,7 @@ const HomeServiceComponent = () => {
               />
             </Card>
           </Col>
-          <Col lg={6} md={6} className="mt-3">
+          <Col lg={6} md={6} sm={6} xs={12} className="mt-3">
             <Card className="home-service--custom__image">
               <Card.Img
                 variant="top"
@@ -37,7 +37,7 @@ const HomeServiceComponent = () => {
               />
             </Card>
           </Col>
-          <Col lg={6} md={6} className="mt-3">
+          <Col lg={6} md={6} sm={6} xs={12} className="mt-3">
             <Card className="home-service--custom__image">
               <Card.Img
                 variant="top"

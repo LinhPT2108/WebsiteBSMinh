@@ -3,24 +3,22 @@
   background-position: top;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 80vh;
+  height: 80vh !important;
 }
 
-.bg-loaded {
-  /* height: 500px; */
-}
-
-.about-banner--title, .about-content--title {
+.about-banner--title,
+.about-content--title {
   color: #ff6600;
 }
-.about-banner--button, .about-content--button {
+.about-banner--button,
+.about-content--button {
   position: relative;
   text-decoration: none;
   color: #ffffff;
   background-color: #ff6600;
   padding: 10px 15px;
   border-radius: 5px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-contact--text {
@@ -35,7 +33,8 @@
   transition: opacity 0.3s;
 }
 
-.about-banner--button:hover, .about-content--button:hover {
+.about-banner--button:hover,
+.about-content--button:hover {
   background-color: #ca5100;
 }
 
@@ -47,4 +46,246 @@
 
 .about-banner--button:hover .bi-telephone-fill {
   opacity: 1;
+}
+
+.about-banner--contact {
+  position: relative;
+}
+
+@media (min-width: 550px) {
+  #text-box-1609997032 {
+    width: 40%;
+  }
+}
+
+#text-box-1609997032 {
+  width: 60%;
+}
+
+@media screen and (min-width: 340px) {
+  .banner-bg {
+    height: 30vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 12px !important;
+  }
+  .res-text p {
+    font-size: 12px !important;
+    margin-bottom: 0;
+  }
+  .space-top--custom {
+    margin-top: 12px !important;
+  }
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(-5%) !important;
+    -ms-transform: translateY(-5%) !important;
+    transform: translateY(-5%) !important;
+  }
+}
+@media screen and (min-width: 390px) {
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(20%) !important;
+    -ms-transform: translateY(20%) !important;
+    transform: translateY(20%) !important;
+  }
+}
+@media screen and (min-width: 400px) {
+  .banner-bg {
+    height: 32vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 15px !important;
+  }
+  .res-text p {
+    font-size: 14px !important;
+    margin-bottom: 6px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(-5%) !important;
+    -ms-transform: translateY(-5%) !important;
+    transform: translateY(-5%) !important;
+  }
+}
+@media screen and (min-width: 430px) {
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(10%) !important;
+    -ms-transform: translateY(10%) !important;
+    transform: translateY(10%) !important;
+  }
+}
+@media screen and (min-width: 440px) {
+  .banner-bg {
+    height: 35vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 15px !important;
+  }
+  .res-text p {
+    font-size: 14px !important;
+    margin-bottom: 6px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(15%) !important;
+    -ms-transform: translateY(15%) !important;
+    transform: translateY(15%) !important;
+  }
+}
+@media screen and (min-width: 500px) {
+  .banner-bg {
+    height: 50vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 18px !important;
+  }
+  .res-text p {
+    font-size: 16px !important;
+    margin-bottom: 6px;
+  }
+  .space-top--custom {
+    margin-top: 18px !important;
+  }
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(15%) !important;
+    -ms-transform: translateY(15%) !important;
+    transform: translateY(15%) !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .banner-bg {
+    height: 50vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 20px !important;
+  }
+  .res-text p {
+    font-size: 18px !important;
+    margin-bottom: 12px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(20%) !important;
+    -ms-transform: translateY(20%) !important;
+    transform: translateY(20%) !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner-bg {
+    height: 50vh;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 20px !important;
+  }
+  .res-text p {
+    font-size: 18px !important;
+    margin-bottom: 12px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(50%) !important;
+    -ms-transform: translateY(50%) !important;
+    transform: translateY(50%) !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .banner-bg {
+    height: 50vh;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 24px !important;
+  }
+  .res-text p {
+    font-size: 18px !important;
+    margin-bottom: 12px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(45%) !important;
+    -ms-transform: translateY(45%) !important;
+    transform: translateY(45%) !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner-bg {
+    height: 60vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 30px !important;
+  }
+  .res-text p {
+    font-size: 24px !important;
+    margin-bottom: 12px;
+  }
+  .space-top--custom {
+    margin-top: 40px !important;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(40%) !important;
+    -ms-transform: translateY(40%) !important;
+    transform: translateY(40%) !important;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .banner-bg {
+    height: 70vh !important;
+  }
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(50%) !important;
+    -ms-transform: translateY(50%) !important;
+    transform: translateY(50%) !important;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .banner-bg {
+    height: 80vh !important;
+  }
+  .res-text .about-banner--title,
+  .res-text a {
+    font-size: 30px !important;
+  }
+  .res-text p {
+    font-size: 24px !important;
+    margin-bottom: 12px;
+  }
+
+  .lg-y50 {
+    top: 50%;
+    -webkit-transform: translateY(90%) !important;
+    -ms-transform: translateY(90%) !important;
+    transform: translateY(90%) !important;
+  }
+}
+.res-text {
+  font-size: 20px;
+}
+.text-box {
+  max-height: 100%;
+}
+.banner-layers > * {
+  position: absolute !important;
 }
