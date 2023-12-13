@@ -11,7 +11,8 @@ import "@/styles/app.css";
 import "@/styles/home.css";
 import "@/styles/about.css";
 import "@/styles/contact.css";
-import "@/styles/specialty-counsel.css";
+import "@/styles/aside.css";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
