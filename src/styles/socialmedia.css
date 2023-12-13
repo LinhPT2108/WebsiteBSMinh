@@ -1,0 +1,41 @@
+body {
+    position: relative;
+}
+.social-media{
+    position: fixed;
+    bottom: 12px;
+    left: 12px;
+}
+.social-media--icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: greenyellow; */
+    font-size: 2rem;
+}
+
+.social-media--icon__zalo{
+    width: 32px;
+    height: 32px;
+}
+@media screen and (max-width: 768px) {
+    .social-media{
+       flex-direction: row !important;
+        width: 100%;
+        justify-content: space-around;
+        bottom:0;
+        left: 0;
+        padding: 12px 0;
+        background-color: rgb(214, 210, 210);
+        z-index: 2;
+    }
+    
+    .social-media a{
+        display: flex;
+        align-items: center;
+        
+     }
+     body{
+        margin-bottom: 74px;
+     }
+}
