@@ -104,3 +104,16 @@
     height: 240px !important;
   }
 }
+
+.dropdown-menu.show {
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+}
+.dropdown-menu a {
+  padding: 3px 12px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid rgba(161, 156, 156, 0.2);
+}
+.dropdown-menu a:hover {
+  background-color: #b8b1a6;
+}

@@ -4,9 +4,9 @@ import useSWR from "swr";
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-const GetMethodSpecialtyCounsel = (path: string) => { 
+const GetMethodSpecialtyCounsel = (path: string, page: number) => {
   const { data, error, isLoading } = useSWR(
-    "http://localhost:8000/" + path,
+    `http://localhost:8000/${path}?page=${page}`,
     fetcher,
     {
       revalidateIfStale: false,

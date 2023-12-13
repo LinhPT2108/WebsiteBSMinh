@@ -9,14 +9,22 @@ import {
   Row,
 } from "react-bootstrap";
 import AsideComponent from "./app.aside";
+import ReactPaginate from "react-paginate";
+import { useState } from "react";
 
 interface IPros {
   blogs: IBlog[];
   path: IPath;
+  page: number;
+  onPageChange: (newPage: number) => void;
 }
 
 const AppSpecialtyCounselComponent = (pros: IPros) => {
-  const { blogs, path } = pros;
+  const { blogs, path, page } = pros;
+  const handlePageClick = (event: any) => {
+    const newPage = +event.selected + 1;
+    pros.onPageChange(newPage);
+  };
 
   return (
     <div className="my-3">
@@ -45,15 +53,15 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                 <Breadcrumb.Item href="/vo-sinh" active>
                   Vô sinh
                 </Breadcrumb.Item>
-              )
-              : path?.childSpecialty === "immunizations" ? (
+              ) : path?.childSpecialty === "immunizations" ? (
                 <Breadcrumb.Item href="/chich-ngua" active>
-                 TƯ VẤN , TẦM SOÁT ,CHÍCH NGỪA UNG THƯ CỔ TỬ CUNG (HPV)
+                  TƯ VẤN , TẦM SOÁT ,CHÍCH NGỪA UNG THƯ CỔ TỬ CUNG (HPV)
                 </Breadcrumb.Item>
-              ):" "
-            }
+              ) : (
+                " "
+              )}
             </Breadcrumb>
-            {blogs?.map((blog, index) => {
+            {blogs.slice((page - 1) * 8, page * 8)?.map((blog, index) => {
               return (
                 <Row key={index} className="mb-3">
                   <Col lg={5} md={5} xs={12}>
@@ -82,6 +90,29 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                 </Row>
               );
             })}
+            <div className="d-flex justify-content-center">
+              <ReactPaginate
+                className=""
+                nextLabel="next >"
+                onPageChange={handlePageClick}
+                pageRangeDisplayed={8}
+                marginPagesDisplayed={2}
+                pageCount={Math.ceil(blogs.length / 8)}
+                previousLabel="< previous"
+                pageClassName="page-item"
+                pageLinkClassName="page-link"
+                previousClassName="page-item"
+                previousLinkClassName="page-link"
+                nextClassName="page-item"
+                nextLinkClassName="page-link"
+                breakLabel="..."
+                breakClassName="page-item"
+                breakLinkClassName="page-link"
+                containerClassName="pagination"
+                activeClassName="active"
+                renderOnZeroPageCount={null}
+              />
+            </div>
           </Col>
           <Col lg={3} md={12}>
             <AsideComponent />

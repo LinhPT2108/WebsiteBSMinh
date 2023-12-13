@@ -31,19 +31,44 @@ function HeaderComponent() {
                 </Link>
               </Nav.Link>
               <NavDropdown title="CHUYÊN KHOA" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/phu-khoa">PHỤ KHOA</NavDropdown.Item>
-                <NavDropdown.Item href="/san-khoa">SẢN KHOA</NavDropdown.Item>
-                <NavDropdown.Item href="/sieu-am">SIÊU ÂM</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="/xet-nghiem">
+                <Link
+                  href="/phu-khoa"
+                  className="text-decoration-none d-block text-black"
+                >
+                  PHỤ KHOA
+                </Link>
+                <Link
+                  href="/san-khoa"
+                  className="text-decoration-none d-block text-black"
+                >
+                  SẢN KHOA
+                </Link>
+                <Link
+                  href="/sieu-am"
+                  className="text-decoration-none d-block text-black"
+                >
+                  SIÊU ÂM
+                </Link>
+                <Link
+                  href="/xet-nghiem"
+                  className="text-decoration-none d-block text-black"
+                >
                   XÉT NGHIỆM
-                </NavDropdown.Item>
+                </Link>
               </NavDropdown>
               <NavDropdown title="TƯ VẤN" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/vo-sinh">VÔ SINH</NavDropdown.Item>
-                <NavDropdown.Item href="/chich-ngua">
+                <Link
+                  href="/vo-sinh"
+                  className="text-decoration-none d-block text-black"
+                >
+                  VÔ SINH
+                </Link>
+                <Link
+                  href="/chich-ngua"
+                  className="text-decoration-none d-block text-black"
+                >
                   CHÍCH NGỪA
-                </NavDropdown.Item>
+                </Link>
               </NavDropdown>
               <Nav.Link>
                 <Link href="/tin-tuc" className="nav-menu">
