@@ -5,6 +5,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import SearchBarComponent from "./app.search-bar";
 
 function HeaderComponent() {
   return (
@@ -55,8 +56,8 @@ function HeaderComponent() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link href="/" className="nav-menu">
-                  Find
+                <Link href="#" className="nav-menu">
+                  <SearchBarComponent></SearchBarComponent>
                 </Link>
               </Nav.Link>
             </Nav>
