@@ -79,7 +79,7 @@ const AsideComponent = () => {
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
                     <div className="box-image--aside">
-                      <div className="image-cover" p-56>
+                      <div className="image-cover--aside" p-56>
                         <Image
                           width="600"
                           height="440"
@@ -93,7 +93,7 @@ const AsideComponent = () => {
                         />{" "}
                       </div>
                     </div>
-                    <div className="box-text text-center">
+                    <div className="box-text--aside text-center">
                       <div className="box-text-inner blog-post-inner">
                         <h5 className="post-title is-large text-dark">
                           Thai mấy tuần thì máy? Dấu hiệu thai máy bất thường
@@ -113,7 +113,7 @@ const AsideComponent = () => {
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
                     <div className="box-image--aside">
-                      <div className="image-cover" p-56>
+                      <div className="image-cover--aside" p-56>
                         <Image
                           width="600"
                           height="440"
@@ -127,7 +127,7 @@ const AsideComponent = () => {
                         />{" "}
                       </div>
                     </div>
-                    <div className="box-text text-center">
+                    <div className="box-text--aside text-center">
                       <div className="box-text-inner blog-post-inner">
                         <h5 className="post-title is-large text-dark">
                           Thai mấy tuần thì máy? Dấu hiệu thai máy bất thường
@@ -147,7 +147,7 @@ const AsideComponent = () => {
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
                     <div className="box-image--aside">
-                      <div className="image-cover" p-56>
+                      <div className="image-cover--aside" p-56>
                         <Image
                           width="600"
                           height="440"
@@ -161,7 +161,7 @@ const AsideComponent = () => {
                         />{" "}
                       </div>
                     </div>
-                    <div className="box-text text-center">
+                    <div className="box-text--aside text-center">
                       <div className="box-text-inner blog-post-inner">
                         <h5 className="post-title is-large text-dark">
                           Thai mấy tuần thì máy? Dấu hiệu thai máy bất thường
@@ -181,7 +181,7 @@ const AsideComponent = () => {
                 >
                   <div className="box box-normal box-text-bottom box-blog-post has-hover">
                     <div className="box-image--aside">
-                      <div className="image-cover" p-56>
+                      <div className="image-cover--aside" p-56>
                         <Image
                           width="600"
                           height="440"
@@ -195,7 +195,7 @@ const AsideComponent = () => {
                         />{" "}
                       </div>
                     </div>
-                    <div className="box-text text-center">
+                    <div className="box-text--aside text-center">
                       <div className="box-text-inner blog-post-inner">
                         <h5 className="post-title is-large text-dark">
                           Thai mấy tuần thì máy? Dấu hiệu thai máy bất thường

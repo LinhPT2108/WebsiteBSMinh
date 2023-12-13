@@ -30,33 +30,18 @@ function HeaderComponent() {
                 </Link>
               </Nav.Link>
               <NavDropdown title="CHUYÊN KHOA" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/phu-khoa">
-                  CHUYÊN KHOA
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
+                <NavDropdown.Item href="/phu-khoa">PHỤ KHOA</NavDropdown.Item>
+                <NavDropdown.Item href="/san-khoa">SẢN KHOA</NavDropdown.Item>
+                <NavDropdown.Item href="/sieu-am">SIÊU ÂM</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/xet-nghiem">
+                  XÉT NGHIỆM
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="TƯ VẤN" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
-                  CHUYÊN KHOA
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="/vo-sinh">VÔ SINH</NavDropdown.Item>
+                <NavDropdown.Item href="/chich-ngua">
+                  CHÍCH NGỪA
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link>

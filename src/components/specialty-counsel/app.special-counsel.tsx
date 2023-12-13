@@ -48,7 +48,7 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
             {blogs?.map((blog, index) => {
               return (
                 <Row key={index} className="mb-3">
-                  <Col lg={5} md={5} xs={6}>
+                  <Col lg={5} md={5} xs={12}>
                     <Card className="border-0">
                       <Card.Img
                         variant="top"
@@ -56,11 +56,13 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                       />
                     </Card>
                   </Col>
-                  <Col lg={7} md={7} xs={6}>
+                  <Col lg={7} md={7} xs={12}>
                     <Card className="d-flex h-100 border-0">
-                      <Card.Body className="pt-0">
-                        <Card.Title>{blog.title}</Card.Title>
-                        <Card.Text className="text-justify">
+                      <Card.Body className="pt-0 special-counsel--body">
+                        <Card.Title className="special-counsel--title">
+                          {blog.title}
+                        </Card.Title>
+                        <Card.Text className="text-justify special-counsel--content">
                           {blog.content}
                         </Card.Text>
                       </Card.Body>

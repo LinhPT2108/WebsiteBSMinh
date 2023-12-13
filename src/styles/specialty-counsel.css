@@ -1,3 +1,39 @@
 .breadcrumb-item + .breadcrumb-item::before {
   content: var(--bs-breadcrumb-divider, ">>");
 }
+.special-counsel--content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+@media screen and (max-width: 768px) {
+  .special-counsel--content {
+    display: none;
+  }
+  .special-counsel--title {
+    padding-top: 12px;
+    padding-left: 0;
+  }
+  .special-counsel--body {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .special-counsel--content {
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .special-counsel--content {
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .special-counsel--content {
+    overflow: hidden;
+    -webkit-line-clamp: 7;
+  }
+}
