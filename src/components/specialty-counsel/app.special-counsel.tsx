@@ -1,21 +1,52 @@
 "use client";
 
-import { Card, Col, Container, Row } from "react-bootstrap";
+import {
+  Breadcrumb,
+  Card,
+  Col,
+  Container,
+  Pagination,
+  Row,
+} from "react-bootstrap";
 
 interface IPros {
   blogs: IBlog[];
+  path: IPath;
 }
 
 const AppSpecialtyCounselComponent = (pros: IPros) => {
-  const { blogs } = pros;
+  const { blogs, path } = pros;
+
   return (
-    <div>
+    <div className="my-3">
       <Container>
-        {blogs?.map((blog, index) => {
-          return (
-            <Row key={index} className="mb-3">
-              <Col lg={9} md={12}>
-                <Row>
+        <Row>
+          <Col lg={9} md={12}>
+            <Breadcrumb>
+              <Breadcrumb.Item href="/">Trang chủ</Breadcrumb.Item>
+              {path?.childSpecialty === "gynecology" ? (
+                <Breadcrumb.Item href="/phu-khoa" active>
+                  Phụ khoa
+                </Breadcrumb.Item>
+              ) : path?.childSpecialty === "tests" ? (
+                <Breadcrumb.Item href="/xet-nghiem" active>
+                  Xét nghiệm
+                </Breadcrumb.Item>
+              ) : path?.childSpecialty === "obstetrics" ? (
+                <Breadcrumb.Item href="/san-khoa" active>
+                  Sản khoa
+                </Breadcrumb.Item>
+              ) : path?.childSpecialty === "ultrasound" ? (
+                <Breadcrumb.Item href="/sieu-am" active>
+                  Siêu âm
+                </Breadcrumb.Item>
+              ) : (
+                ""
+              )}
+            </Breadcrumb>
+            {blogs?.map((blog, index) => {
+              return (
+                <Row key={index} className="mb-3">
                   <Col lg={5} md={5} xs={6}>
                     <Card className="border-0">
                       <Card.Img
@@ -25,19 +56,23 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                     </Card>
                   </Col>
                   <Col lg={7} md={7} xs={6}>
-                    <Card className="d-flex h-100 align-items-center">
-                      <Card.Body className="">
+                    <Card className="d-flex h-100 border-0">
+                      <Card.Body className="pt-0">
                         <Card.Title>{blog.title}</Card.Title>
-                        <Card.Text>{blog.content}</Card.Text>
+                        <Card.Text className="text-justify">
+                          {blog.content}
+                        </Card.Text>
                       </Card.Body>
                     </Card>
                   </Col>
                 </Row>
-              </Col>
-              <Col lg={3} md={12}></Col>
-            </Row>
-          );
-        })}
+              );
+            })}
+          </Col>
+          <Col lg={3} md={12}>
+            123123
+          </Col>
+        </Row>
       </Container>
     </div>
   );
