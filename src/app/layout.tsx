@@ -12,6 +12,7 @@ import "@/styles/home.css";
 import "@/styles/about.css";
 import "@/styles/contact.css";
 import "@/styles/aside.css";
+import "@/styles/searchBar.css";
 
 
 const inter = Inter({ subsets: ["latin"] });
