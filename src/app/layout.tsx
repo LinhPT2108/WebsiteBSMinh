@@ -11,7 +11,7 @@ import "@/styles/app.css";
 import "@/styles/home.css";
 import "@/styles/about.css";
 import "@/styles/contact.css";
-
+import "@/styles/news.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
