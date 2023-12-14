@@ -12,6 +12,7 @@ const AboutContentComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+              alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
             />
           </Card>
         </Col>

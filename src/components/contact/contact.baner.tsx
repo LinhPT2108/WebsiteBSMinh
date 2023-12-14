@@ -9,6 +9,7 @@ const ContactBannerComponent = () => {
         <Image
           src="/home/home-news/tap-the-bac-sy.jpg"
           className="Contact-banner--image"
+          alt="tap-the-bac-sy.jpg"
         />
       </div>
       <div className="box-text text-right is-large dark">

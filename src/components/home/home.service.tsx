@@ -16,6 +16,7 @@ const HomeServiceComponent = () => {
                 variant="top"
                 className="home-service--custom__image"
                 src="/home/home-service/dich-vu-dieu-tri-vo-sinh.png"
+                alt="dich-vu-dieu-tri-vo-sinh.png"
               />
             </Card>
           </Col>
@@ -25,6 +26,7 @@ const HomeServiceComponent = () => {
                 variant="top"
                 className="home-service--custom__image"
                 src="/home/home-service/dich-vu-dieu-tri-vo-sinh.png"
+                alt="dich-vu-dieu-tri-vo-sinh.png"
               />
             </Card>
           </Col>
@@ -34,6 +36,7 @@ const HomeServiceComponent = () => {
                 variant="top"
                 className="home-service--custom__image"
                 src="/home/home-service/dich-vu-dieu-tri-vo-sinh.png"
+                alt="dich-vu-dieu-tri-vo-sinh.png"
               />
             </Card>
           </Col>
@@ -43,6 +46,7 @@ const HomeServiceComponent = () => {
                 variant="top"
                 className="home-service--custom__image"
                 src="/home/home-service/dich-vu-dieu-tri-vo-sinh.png"
+                alt="dich-vu-dieu-tri-vo-sinh.png"
               />
             </Card>
           </Col>

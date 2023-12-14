@@ -10,7 +10,11 @@ const HomReasonComponent = () => {
         <Row className="mt-4">
           <Col lg={2} md={4} xs={6} className="mt-3">
             <Card className="home-reason--card">
-              <Card.Img variant="top" src="/home/home-reason/hands.png" />
+              <Card.Img
+                variant="top"
+                src="/home/home-reason/hands.png"
+                alt="hands.png"
+              />
               <Card.Body>
                 <Card.Text>Hướng tới mẹ tròn con vuông</Card.Text>
               </Card.Body>
@@ -21,6 +25,7 @@ const HomReasonComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-reason/consultation.png"
+                alt="consultation.png"
               />
               <Card.Body>
                 <Card.Text>Tư vấn nhiệt tình, an tâm hài lòng</Card.Text>
@@ -29,7 +34,11 @@ const HomReasonComponent = () => {
           </Col>
           <Col lg={2} md={4} xs={6} className="mt-3">
             <Card className="home-reason--card">
-              <Card.Img variant="top" src="/home/home-reason/doctor.png" />
+              <Card.Img
+                variant="top"
+                src="/home/home-reason/doctor.png"
+                alt="doctor.png"
+              />
               <Card.Body>
                 <Card.Text>Bác sĩ giỏi, giàu kinh nghiệm</Card.Text>
               </Card.Body>
@@ -37,7 +46,11 @@ const HomReasonComponent = () => {
           </Col>
           <Col lg={2} md={4} xs={6} className="mt-3">
             <Card className="home-reason--card">
-              <Card.Img variant="top" src="/home/home-reason/lamp.png" />
+              <Card.Img
+                variant="top"
+                src="/home/home-reason/lamp.png"
+                alt="lamp.png"
+              />
               <Card.Body>
                 <Card.Text>Phương châm hoạt động tận tâm tậm tình</Card.Text>
               </Card.Body>
@@ -45,7 +58,11 @@ const HomReasonComponent = () => {
           </Col>
           <Col lg={2} md={4} xs={6} className="mt-3">
             <Card className="home-reason--card">
-              <Card.Img variant="top" src="/home/home-reason/reputation.png" />
+              <Card.Img
+                variant="top"
+                src="/home/home-reason/reputation.png"
+                alt="reputation.png"
+              />
               <Card.Body>
                 <Card.Text>Hướng tới uy tín chất lượng</Card.Text>
               </Card.Body>
@@ -53,7 +70,11 @@ const HomReasonComponent = () => {
           </Col>
           <Col lg={2} md={4} xs={6} className="mt-3">
             <Card className="home-reason--card">
-              <Card.Img variant="top" src="/home/home-reason/ultrasound.png" />
+              <Card.Img
+                variant="top"
+                src="/home/home-reason/ultrasound.png"
+                alt="ultrasound.png"
+              />
               <Card.Body>
                 <Card.Text>Sử dụng kỹ thuật tiên tiến nhất</Card.Text>
               </Card.Body>

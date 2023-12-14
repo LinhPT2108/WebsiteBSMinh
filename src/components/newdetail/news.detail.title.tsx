@@ -48,7 +48,7 @@ const NewsDeatailTitleComponent = () => {
                   Phòng khám phụ khoa tốt nhất ở TPHCM là cơ sở nào?
                 </a>
               </ListGroup.Item>
-              <ListGroup.Item as="li" className="border-0">
+              <ListGroup.Item as="ol" className="border-0">
                 <a href="" className="text-decoration-none text-dark">
                   Vì sao phòng khám sản phụ khoa bác sĩ Điệp được đánh giá tốt
                   nhất?
@@ -86,7 +86,7 @@ const NewsDeatailTitleComponent = () => {
                   </a>
                 </ListGroup.Item>
               </ListGroup.Item>
-              <ListGroup.Item as="li" className="border-0">
+              <ListGroup.Item as="ol" className="border-0">
                 Những lưu ý khi thăm khám phụ khoa bạn cần biết
                 <ListGroup.Item as="li" className="border-0">
                   <a href="" className="text-decoration-none text-dark">

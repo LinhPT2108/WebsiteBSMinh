@@ -13,17 +13,17 @@ import { setTimeout } from "timers";
 const SearchBarComponent = () => {
   const [modalShow, setModalShow] = React.useState(false);
   let keyword = {};
-  const { data, error, isLoading } = GetMethodSpecialtyCounsel("specialty");
+  const { data, error, isLoading } = GetMethodSpecialtyCounsel("specialty", 1);
   function findPost(
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) {
     setTimeout(function () {
-        keyword = data.gynecology;
+      keyword = data.gynecology;
       console.log(data.gynecology);
     }, 2000);
     console.log(e.target.value);
   }
-  
+
   return (
     <>
       <span className="text-dark" onClick={() => setModalShow(true)}>

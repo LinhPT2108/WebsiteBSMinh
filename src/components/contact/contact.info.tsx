@@ -20,14 +20,15 @@ const ContactInfoComponent = () => {
             Liên Hệ
           </Breadcrumb.Item>
         </Breadcrumb>
-        <p className="contact-info--text">
+        <div className="contact-info--text">
           <h3>PHÒNG KHÁM SẢN PHỤ KHOA</h3>
           <h3>BÁC SỸ PHẠM NGỌC DIỆP</h3>
-        </p>
+        </div>
         <p className="image-box">
           <Image
             src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
             className="image-contact"
+            alt="phong-kham-bac-si-diep-125.jpg"
           />
         </p>
         <Row className="py-5">

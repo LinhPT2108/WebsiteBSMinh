@@ -11,6 +11,7 @@ const HomeAboutComponent = () => {
             variant="top"
             src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
             className="about-image--custom"
+            alt="phong-kham-bac-si-diep-125.jpg"
           />
         </Card>
       </Col>

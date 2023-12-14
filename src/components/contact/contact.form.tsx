@@ -16,7 +16,7 @@ const ContactFormComponent = () => {
               <Row>
                 <Form.Group
                   as={Col}
-                  column
+                  // column
                   lg={6}
                   md={6}
                   xs={12}
@@ -31,7 +31,7 @@ const ContactFormComponent = () => {
                 </Form.Group>
                 <Form.Group
                   as={Col}
-                  column
+                  // column
                   lg={6}
                   md={6}
                   xs={12}

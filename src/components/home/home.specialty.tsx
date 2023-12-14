@@ -48,6 +48,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -65,6 +66,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -82,6 +84,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -99,6 +102,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -116,6 +120,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -133,6 +138,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -150,6 +156,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>
@@ -167,6 +174,7 @@ const HomeSpecialtyComponent = () => {
               <Card.Img
                 variant="top"
                 src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+                alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
               />
               <Card.Body className="text-center">
                 <Card.Title>

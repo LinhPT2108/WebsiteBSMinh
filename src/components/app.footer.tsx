@@ -10,7 +10,7 @@ const AppFooter = () => {
           <Col md={5}>
             <ListGroup>
               <ListGroup.Item className="list-group--custom footer-bg--custom text-white">
-                <h5>PHÒNG KHÁM SẢN PHỤ KHOA</h5>
+                <h4>PHÒNG KHÁM SẢN PHỤ KHOA</h4>
               </ListGroup.Item>
               <ListGroup.Item className="list-group--custom footer-bg--custom text-white">
                 <h5>BS - CKII: Phạm Thị Ngọc Điệp</h5>

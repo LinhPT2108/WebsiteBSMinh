@@ -15,6 +15,7 @@ const HomeCounselComponent = () => {
                 variant="top"
                 src="/home/home-counsel/dich-vu-sieu-am.png"
                 className="p-3"
+                alt="dich-vu-sieu-am.png"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">SIÊU ÂM</Card.Title>
@@ -32,6 +33,7 @@ const HomeCounselComponent = () => {
                 variant="top"
                 src="/home/home-counsel/san-khoa.png"
                 className="p-3"
+                alt="san-khoa.png"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">SẢN KHOA</Card.Title>
@@ -49,6 +51,7 @@ const HomeCounselComponent = () => {
                 variant="top"
                 src="/home/home-counsel/phu-khoa.png"
                 className="p-3"
+                alt="phu-khoa.png"
               />
               <Card.Body className="text-center">
                 <Card.Title className="text-dark">PHỤ KHOA</Card.Title>

@@ -4,7 +4,7 @@ const SocialmediaComponent = () => {
   return (
     <div className="social-media d-flex justify-content-around flex-column py-0">
       <Link
-        href="tel:1231231231"
+        href="tel:0909123123"
         className="social-media--icon d-flex justify-content-center"
       >
         <i className="bi bi-telephone-forward"></i>
@@ -21,7 +21,7 @@ const SocialmediaComponent = () => {
       </Link>
 
       <Link
-        href="#"
+        href="https://facebook.com/phucvinhtran2304"
         className="social-media--icon d-flex justify-content-center"
       >
         <i className="bi bi-messenger"></i>

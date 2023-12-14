@@ -3,40 +3,17 @@
 import { Card, Carousel, Col, Image, ListGroup, Row } from "react-bootstrap";
 
 const HomeFeelComponent = () => {
-  const feels = [
-    {
-      image: "khach-hang-phong-kham-bac-sy-diep-tu-du00006.jpg",
-      title: "Các bé BS đỡ sanh",
-      content:
-        "Ngọc Hân :Bác ơi con cảm ơn bác trong thời gian qua đã khám va tư vấn nhiệt tình cho con. Nhờ bác đã cho con hích Hổ trợ phổi nên con sinh be o tuần 35 cũng đỡ được 1 phần. ngày con di sanh cũng đúng ngày con lên bác khám lai luôn. Be cua con 10ngay rồi, con sanh được 2k7 Con cảm ơn bác nhiều lắm",
-    },
-    {
-      image: "khach-hang-phong-kham-bac-sy-diep-tu-du00007.jpg",
-      title: "Các bé BS đỡ sanh",
-      content:
-        "Ngọc Hân :Bác ơi con cảm ơn bác trong thời gian qua đã khám va tư vấn nhiệt tình cho con. Nhờ bác đã cho con hích Hổ trợ phổi nên con sinh be o tuần 35 cũng đỡ được 1 phần. ngày con di sanh cũng đúng ngày con lên bác khám lai luôn. Be cua con 10ngay rồi, con sanh được 2k7 Con cảm ơn bác nhiều lắm",
-    },
-    {
-      image: "khach-hang-phong-kham-bac-sy-diep-tu-du00008.jpg",
-      title: "Các bé BS đỡ sanh",
-      content:
-        "Ngọc Hân :Bác ơi con cảm ơn bác trong thời gian qua đã khám va tư vấn nhiệt tình cho con. Nhờ bác đã cho con hích Hổ trợ phổi nên con sinh be o tuần 35 cũng đỡ được 1 phần. ngày con di sanh cũng đúng ngày con lên bác khám lai luôn. Be cua con 10ngay rồi, con sanh được 2k7 Con cảm ơn bác nhiều lắm",
-    },
-    {
-      image: "khach-hang-phong-kham-bac-sy-diep-tu-du00009.jpg",
-      title: "Các bé BS đỡ sanh",
-      content:
-        "Ngọc Hân :Bác ơi con cảm ơn bác trong thời gian qua đã khám va tư vấn nhiệt tình cho con. Nhờ bác đã cho con hích Hổ trợ phổi nên con sinh be o tuần 35 cũng đỡ được 1 phần. ngày con di sanh cũng đúng ngày con lên bác khám lai luôn. Be cua con 10ngay rồi, con sanh được 2k7 Con cảm ơn bác nhiều lắm",
-    },
-  ];
-
   return (
     <div>
       <h2 className="pt-5 text-center">Cảm nhận của bệnh nhân sau điều trị</h2>
       <Row className="mt-1">
         <Col md={6} sm={12}>
           <Card className="home-feel--card">
-            <Card.Img variant="top" src="/home/home-feel/gt-img.jpg" />
+            <Card.Img
+              variant="top"
+              src="/home/home-feel/gt-img.jpg"
+              alt="gt-img.jpg"
+            />
           </Card>
         </Col>
         <Col md={6} sm={12}>
@@ -48,6 +25,7 @@ const HomeFeelComponent = () => {
                     variant="top"
                     src="/home/home-feel/khach-hang-phong-kham-bac-sy-diep-tu-du00006.jpg"
                     className="home-feel--image"
+                    alt="khach-hang-phong-kham-bac-sy-diep-tu-du00006.jpg"
                   />
                   <h5>Các bé BS đỡ sanh</h5>
                   <p className="text-justify">
@@ -63,6 +41,7 @@ const HomeFeelComponent = () => {
                     variant="top"
                     src="/home/home-feel/khach-hang-phong-kham-bac-sy-diep-tu-du00007.jpg"
                     className="home-feel--image"
+                    alt="khach-hang-phong-kham-bac-sy-diep-tu-du00007.jpg"
                   />
                   <h5>Các bé BS đỡ sanh</h5>
                   <p className="text-justify">
@@ -84,6 +63,7 @@ const HomeFeelComponent = () => {
                     variant="top"
                     src="/home/home-feel/khach-hang-phong-kham-bac-sy-diep-tu-du00008.jpg"
                     className="home-feel--image"
+                    alt="khach-hang-phong-kham-bac-sy-diep-tu-du00008.jpg"
                   />
                   <h5>Các bé BS đỡ sanh</h5>
                   <p className="text-justify">

@@ -14,26 +14,22 @@ function HeaderComponent() {
         <Container>
           <Navbar.Brand>
             <Link href="/">
-              <Image src="/logo.png" width={241} height={70} />
+              <Image src="/logo.png" width={241} height={70} alt="logo.png" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto fw-bold fs-6">
-              <Nav.Link>
-                <Link href="/" className="nav-menu">
-                  TRANG CHỦ
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link href="/ve-chung-toi" className="nav-menu">
-                  VỀ CHÚNG TÔI
-                </Link>
-              </Nav.Link>
+            <Nav className="me-auto fw-bold fs-6 align-items-center">
+              <Link href="/" className="nav-menu">
+                TRANG CHỦ
+              </Link>
+              <Link href="/ve-chung-toi" className="nav-menu">
+                VỀ CHÚNG TÔI
+              </Link>
               <NavDropdown title="CHUYÊN KHOA" id="basic-nav-dropdown">
                 <Link
                   href="/phu-khoa"
-                  className="text-decoration-none d-block text-black"
+                  className="text-decoration-none d-block text-black "
                 >
                   PHỤ KHOA
                 </Link>
@@ -56,7 +52,7 @@ function HeaderComponent() {
                   XÉT NGHIỆM
                 </Link>
               </NavDropdown>
-              <NavDropdown title="TƯ VẤN" id="basic-nav-dropdown">
+              <NavDropdown title="TƯ VẤN" id="nav-dropdown">
                 <Link
                   href="/vo-sinh"
                   className="text-decoration-none d-block text-black"
@@ -70,21 +66,15 @@ function HeaderComponent() {
                   CHÍCH NGỪA
                 </Link>
               </NavDropdown>
-              <Nav.Link>
-                <Link href="/tin-tuc" className="nav-menu">
-                  TIN TỨC
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link href="/lien-he" className="nav-menu">
-                  LIÊN HỆ
-                </Link>
-              </Nav.Link>
-              <Nav.Link>
-                <Link href="#" className="nav-menu">
-                  <SearchBarComponent></SearchBarComponent>
-                </Link>
-              </Nav.Link>
+              <Link href="/tin-tuc" className="nav-menu">
+                TIN TỨC
+              </Link>
+              <Link href="/lien-he" className="nav-menu">
+                LIÊN HỆ
+              </Link>
+              <Link href="" className="nav-menu">
+                <SearchBarComponent></SearchBarComponent>
+              </Link>
             </Nav>
             <Navbar.Text>
               Signed in as: <a href="#login">Mark Otto</a>

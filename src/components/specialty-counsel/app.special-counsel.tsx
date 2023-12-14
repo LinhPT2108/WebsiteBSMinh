@@ -72,6 +72,7 @@ const AppSpecialtyCounselComponent = (pros: IPros) => {
                         variant="top"
                         src={`/specialty-counsel/${blog.image}`}
                         className="specialty-counsel--image"
+                        alt={`${blog.image}`}
                       />
                     </Card>
                   </Col>

@@ -16,6 +16,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-news/Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
+              alt="Tap-the-bac-sy-phong-kham-ngoc-diep-1536x1152.jpg"
             />
             <Card.Body>
               <a
@@ -32,6 +33,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-news/chichnguauongvanchomebau-3585.jpg"
+              alt="chichnguauongvanchomebau-3585.jpg"
             />
             <Card.Body>
               <a
@@ -48,6 +50,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
+              alt="phong-kham-bac-si-diep-125.jpg"
             />
             <Card.Body>
               <a
@@ -66,6 +69,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
+              alt="phong-kham-bac-si-diep-125.jpg"
             />
             <Card.Body>
               <Card.Text>
@@ -84,6 +88,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
+              alt="phong-kham-bac-si-diep-125.jpg"
             />
             <Card.Body>
               <Card.Text>
@@ -102,6 +107,7 @@ const NewsDetailReasonComponent = () => {
             <Card.Img
               variant="top"
               src="/home/home-about/phong-kham-bac-si-diep-125.jpg"
+              alt="phong-kham-bac-si-diep-125.jpg"
             />
             <Card.Body>
               <Card.Text>
